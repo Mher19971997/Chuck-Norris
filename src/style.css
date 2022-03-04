@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 50px 0 ;
+}
+.jokesBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jokesBlock p{
+    width: 50%;
+    /* background-color: white; */
+    border: 2px solid #F15A24;
+    border-radius: 15px;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.App img{
+    width: 300px;
+}
+.btnsGroup{
+    display: flex;
+    justify-content: center;
+}
+.btnsGroup button{
+    border:1px solid#F15A24;
+    background-color: transparent;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.listsBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.listsItemBlock{
+    width: 700px;
+    border:1px solid#F15A24;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listsItemBlock button{
+    background-color: transparent;
+    color:#F15A24;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
+.imagesBlock{
+    display: flex;
+    justify-content: center;
+}
